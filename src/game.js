@@ -2,8 +2,8 @@ Game = {
     
     //Grid som definierar tiles.
     map_grid: {
-        width: 16,
-        height: 24,
+        width: 39,
+        height: 25,
         tile: {
             width: 16,
             height: 16
@@ -26,12 +26,9 @@ Game = {
    
     start: function() {
         Crafty.init(Game.width(),Game.height());
-        Crafty.background('rgb(70,120,220)');
-        
-        Crafty.scene('Loading');
-        
-    
+        Crafty.background("url('assets/background630x400.png')");
+        Crafty.scene('Loading');    
     }
 }
 
-$text_css = { 'font-size': '24px', 'font-family': 'Arial', 'color': 'white', 'text-align': 'center' }
+$text_css = { 'font-size': '24px', 'font-family': 'Arial', 'color': 'black', 'text-align': 'center' }
